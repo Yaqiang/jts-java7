@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.locationtech.jts</groupId>
+        <groupId>org.meteothink</groupId>
         <artifactId>jts-io</artifactId>
         <version>1.15.1</version>
     </parent>
-    <groupId>org.locationtech.jts.io</groupId>
+    <groupId>org.meteothink.io</groupId>
     <artifactId>jts-io-common</artifactId>
     <name>${project.groupId}:${project.artifactId}</name>
     <packaging>jar</packaging>
@@ -17,11 +17,11 @@
                 <configuration>
                   <archive>
                     <manifestEntries>
-                      <Automatic-Module-Name>org.locationtech.jts.io</Automatic-Module-Name>
+                      <Automatic-Module-Name>org.meteothink.jts.io</Automatic-Module-Name>
                     </manifestEntries>
                     <manifestSections>
                       <manifestSection>
-                        <name>org.locationtech.jts.io</name>
+                        <name>org.meteothink.jts.io</name>
                         <manifestEntries>
                           <Sealed>true</Sealed>
                         </manifestEntries>
